@@ -44,7 +44,7 @@ export default function Demo {
 ```
 
 ## Output
-![image] (https://github.com/muntakim1/react-status-indicator/blob/main/image.png)
+![image] (https://github.com/muntakim1/react-status-indicator/blob/main/image.png?raw=true)
 
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
