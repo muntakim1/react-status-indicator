@@ -4,13 +4,50 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe react-status-indicator here.
+React-Status-Indicator is a implementation of status indicator in reactjs.
+
+## Usage:
+
+```
+import React, from "react";
+
+import StatusIndicator from "@react-status-indicator";
+
+export default function Demo {
+  render() {
+    return (
+      <div>
+        <h1>react-status-indicator Demo</h1>
+        <StatusIndicator />
+        {"   "}
+        <StatusIndicator Active />
+        {"   "}
+        <StatusIndicator Active Pulse />
+        {"   "}
+        <StatusIndicator Positive />
+        {"   "}
+        <StatusIndicator Positive Pulse />
+        {"  "}
+        <StatusIndicator Intermediary />
+        {"  "}
+        <StatusIndicator Intermediary Pulse />
+        {"   "}
+        <StatusIndicator Negative />
+        {"  "}
+        <StatusIndicator Negative Pulse />
+        {"   "}
+      </div>
+    );
+  }
+}
+
+```
+
+## Output
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
-
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
 [npm]: https://www.npmjs.org/package/npm-package
-
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/user/repo

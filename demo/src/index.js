@@ -1,15 +1,34 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React, { Component } from "react";
+import { render } from "react-dom";
 
-import Example from '../../src'
+import StatusIndicator from "../../src";
 
 export default class Demo extends Component {
   render() {
-    return <div>
-      <h1>react-status-indicator Demo</h1>
-      <Example/>
-    </div>
+    return (
+      <div>
+        <h1>react-status-indicator Demo</h1>
+        <StatusIndicator />
+        {"   "}
+        <StatusIndicator Active />
+        {"   "}
+        <StatusIndicator Active Pulse />
+        {"   "}
+        <StatusIndicator Positive />
+        {"   "}
+        <StatusIndicator Positive Pulse />
+        {"  "}
+        <StatusIndicator Intermediary />
+        {"  "}
+        <StatusIndicator Intermediary Pulse />
+        {"   "}
+        <StatusIndicator Negative />
+        {"  "}
+        <StatusIndicator Negative Pulse />
+        {"   "}
+      </div>
+    );
   }
 }
 
-render(<Demo/>, document.querySelector('#demo'))
+render(<Demo />, document.querySelector("#demo"));
