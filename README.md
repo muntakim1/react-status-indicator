@@ -44,8 +44,6 @@ export default function Demo {
 ```
 
 ## Output
-![image] (https://github.com/muntakim1/react-status-indicator/blob/main/image.png?raw=true)
-
 
 ![alt text](https://github.com/muntakim1/react-status-indicator/blob/main/image.png?raw=true)
 
